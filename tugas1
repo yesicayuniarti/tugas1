@@ -1,0 +1,32 @@
+tugas1
+======
+#include<iostream>
+#include<conio>
+main()
+{
+ int a=10, b=2, c=9
+ int temp;
+ cout<<"nilai a= "<<a<<endl;
+ cout<<"nilai b= "<<b<<endl;
+ cout<<"nilai c= "<<c<<endl;
+ if(a>b)
+ {
+ temp=a;
+ a=b;
+ b=temp;
+ }
+ if(b>c)
+ {
+temp=b;
+b=c;
+c=temp;
+}
+ if(a>c)
+ {
+temp=a;
+a=c;
+c=temp;
+}
+cout<<"Nilai yang diurutkan: "<<a<<" "<<b<<""<<c<<" ;
+ getch();
+ }
